@@ -11,23 +11,30 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>We go wifi</title>
+    <title>We go WiFi</title>
   </head>
   <body>
     <!-- Navbar started -->
     <nav>
-      <div class="nav-left">
-        <li>Logo</li>
-        <li>MEMBERSHIP PLANS</li>
-        <li>SUPPORT & FAQ</li>
-      </div>
-      <div class="nav-right">JOIN NOW</div>
+      <div class="logo">we g<span class="logo-color">o</span> wifi</div>
+      <input type="checkbox" id="toggle-check" class="checkbox" />
+      <label for="toggle-check" class="hamnurger" id="hamnurger"
+        ><img src="img/hamnurger.jpg" alt="" width="30px"
+      /></label>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="">MEMBERSHIP PLANS</a></li>
+        <li><a href="">SUPPORT & FAQ</a></li>
+        <li class="nav-right">
+          <span><a href="">JOIN NOW</a></span
+          ><img class="arrow" src="img/arrow-white.png" alt="" />
+        </li>
+      </ul>
     </nav>
     <!-- Navbar end -->
     <!-- Hero section started -->
     <section class="hero">
       <div class="hero-img">
-        <img src="img/hero-image.jpeg" alt="" srcset="" />
+        <img src="img/hero-image.jpeg" alt="" />
         <div class="hero-txt">
           <h1>
             WIRELESS <br />
@@ -42,7 +49,10 @@
           <h5>BY REFERAL ONLY - STARTING JAN 31ST</h5>
         </div>
         <div class="hero-bottom-right">
-          <button>REQUEST TO BE A MEMBER</button>
+          <button>
+            <span>REQUEST TO BE A MEMBER</span>
+            <img src="img/arrow-black.png" alt="" />
+          </button>
         </div>
       </div>
     </section>
@@ -63,55 +73,51 @@
             <img src="img/document.png" alt="" width="40px" />
           </div>
           <div class="info-right">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
-              placeat neque quas, quo nostrum ipsa facilis veniam. Architecto,
-              explicabo quasi?
-            </p>
+            <b>
+              Fill out the membership <br />
+              request form. This can <br />
+              take 2 business days <br />
+              for approval
+            </b>
           </div>
         </div>
         <div class="info">
           <div class="info-left">
             <div class="info-num">2</div>
-            <img src="img/document.png" alt="" width="40px" />
+            <img src="img/tap.png" alt="" width="40px" />
           </div>
           <div class="info-right">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
-              placeat neque quas.
-            </p>
+            <b>
+              Choose the device or <br />
+              plan for you
+            </b>
           </div>
         </div>
         <div class="info">
           <div class="info-left">
             <div class="info-num">3</div>
-            <img src="img/document.png" alt="" width="40px" />
+            <img src="img/mail.png" alt="" width="40px" />
           </div>
           <div class="info-right">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
-              placeat neque quas, quo nostrum ipsa facilis veniam. Architecto,
-              explicabo quasi?
-            </p>
+            <b>
+              We mail you your start <br />
+              up package
+            </b>
           </div>
         </div>
         <div class="info">
           <div class="info-left">
             <div class="info-num">4</div>
-            <img src="img/document.png" alt="" width="40px" />
+            <img src="img/checked.png" alt="" width="40px" />
           </div>
           <div class="info-right">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
-              placeat neque quas, quo nostrum ipsa facilis veniam. Architecto,
-              explicabo quasi?
-            </p>
+            <b> You are good to go </b>
           </div>
         </div>
       </div>
     </section>
     <!-- Get started section end -->
-    <!-- Membership details section -->
+    <!-- Membership details section started -->
     <section class="membership-details">
       <div class="membership-details-l">
         <h1 class="title">
@@ -128,14 +134,14 @@
         </p>
       </div>
       <div class="membership-details-r">
-        <img src="img/hero-img.webp" alt="" width="400px" />
+        <img src="img/img-1.jpeg" alt="" width="400px" />
       </div>
     </section>
     <!-- Membership details section end -->
     <!-- Service details section started -->
     <section class="service-details">
       <div class="service-details-l">
-        <img src="img/hero-img.webp" alt="" width="720px" />
+        <img src="img/img-2.webp" alt="" width="720px" />
       </div>
       <div class="service-details-r">
         <h1 class="title">
@@ -190,14 +196,19 @@
           HOW DO I GET <br />
           STARTED?
         </h1>
-        <button>REQUEST TO BE A MEMBER</button>
+        <button>
+          <span>REQUEST TO BE A MEMBER</span>
+          <img src="img/arrow-white.png" alt="" />
+        </button>
       </div>
       <div class="footer-nav">
         <div class="footer-nav-left">
           <li>MEMBERSHIP PLANS</li>
           <li>SUPPORT & FAQ</li>
         </div>
-        <div class="footer-nav-right">JOIN NOW</div>
+        <div class="footer-nav-right">
+          <span>JOIN NOW</span><img src="img/arrow-black.png" alt="" />
+        </div>
       </div>
       <div class="footer-desc">
         <h3>We Go WiFi</h3>
@@ -210,5 +221,7 @@
       </div>
     </footer>
     <!--  Footer section end -->
+    <!-- JavaScript -->
+    <script src="index.js"></script>
   </body>
 </html>
