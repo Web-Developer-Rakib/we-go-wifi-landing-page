@@ -106,6 +106,7 @@ nav {
   background-color: rgb(239, 241, 241);
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .g-started-left h1 {
   font-size: 30px;
@@ -135,6 +136,7 @@ nav {
 }
 .membership-details {
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
   padding: 40px 100px;
 }
@@ -151,6 +153,7 @@ nav {
 }
 .service-details {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .service-details-l {
@@ -165,6 +168,7 @@ nav {
 }
 .membership-duration {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 90px 100px 50px 100px;
 }
@@ -179,6 +183,7 @@ nav {
 .footer-joining-top {
   padding: 30px 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #1f8fff;
 }
@@ -199,6 +204,7 @@ nav {
 .footer-nav {
   padding: 20px 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: 1px solid #808080;
 }
@@ -232,6 +238,7 @@ nav {
   nav {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   .nav-links {
     display: none;
@@ -243,5 +250,84 @@ nav {
   }
   .nav-right {
     margin-left: 0px;
+  }
+  .hero {
+    padding: 30px 30px;
+  }
+  .hero-txt {
+    top: 200px;
+    left: 115px;
+  }
+  .hero-txt > h1 {
+    font-size: 40px;
+  }
+  .hero-bottom {
+    flex-direction: column;
+    height: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .g-started-left {
+    margin-bottom: 20px;
+  }
+  .g-started-right {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .membership-details {
+    justify-content: center;
+    padding: 20px 30px;
+    text-align: center;
+  }
+  .membership-details-l {
+    width: auto;
+    margin-top: 20px;
+  }
+  .membership-details-r > img {
+    width: 300px;
+  }
+  .service-details {
+    justify-content: center;
+  }
+  .service-details-l {
+    margin-top: 20px;
+  }
+  .service-details-l > img {
+    width: 300px;
+    padding: 10px 30px 0px 0px;
+  }
+  .service-details-r {
+    width: auto;
+    padding: 10px 30px;
+    text-align: center;
+  }
+  .membership-duration {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+    text-align: center;
+  }
+  .membership-duration-l {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .membership-duration-r > img {
+    height: 100%;
+    width: 300px;
+  }
+  .footer-joining-top {
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .footer-nav {
+    padding: 20px 30px;
+  }
+  .footer-desc {
+    padding: 30px 30px;
+    margin-bottom: 50px;
   }
 }
